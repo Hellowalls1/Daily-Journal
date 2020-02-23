@@ -1,0 +1,28 @@
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   overflow: hidden;
+}
+.form1 {
+    flex-direction: column;
+}
+
+.journalDate {
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.concepts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.journalEntry{
+    display: flex;
+    flex-wrap: wrap;
+}
+.currentMood{
+    display: flex;
+    flex-wrap: wrap;
+}
