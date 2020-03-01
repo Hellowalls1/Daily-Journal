@@ -26,3 +26,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.loggedEntry {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
