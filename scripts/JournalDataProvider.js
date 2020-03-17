@@ -7,31 +7,17 @@
  */
 
 // This is the original data. Can't Touch This.
-const journal = [
-    {
-        date: "07/24/2025",
-        concept: "HTML & CSS",
-        entry: "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-        mood: "Ok"
-    },
+let journal = [
+   ]
 
-    {
-        date: "02/26/2020",
-        concept: "Javascript",
-        entry: "Finished our group projects and dove into Javascript unabashedly.",
-        mood: "Sad",
-
-    },
-    {
-        date: "02/28/2020",
-        concept: "Javascript",
-        entry: "After a few days of fumbling I am finally able to wrap my head around some of these concepts.",
-        mood: "Ok",
-
-    }
-]
-
-  
+export const getEntries = () => {
+return fetch('http://localhost:3000/entries') // Fetch from the API
+    .then(response => response.json())  // Parse as JSON
+    .then(parsedEntries => {
+        journal = parsedEntries
+        // What should happen when we finally have the array?
+    })
+}
 
 /*
     You export a function that provides a version of the
