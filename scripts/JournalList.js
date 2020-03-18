@@ -4,6 +4,7 @@
  *    there are items in the collection exposed by the
  *    data provider component
  */
+
 import { useJournalEntries } from "./JournalDataProvider.js" //function used to sort array of objects by date
 import JournalEntryComponent from "./JournalEntry.js" //function used to express HTML 
 
@@ -24,3 +25,6 @@ const EntryListComponent = () => {
 }
 
 export default EntryListComponent
+
+//add event listener that listens for the custom event that says something has been saved to the database
+//when it hears the event it need to clear the innerHTML and run the entry list component function line 13
