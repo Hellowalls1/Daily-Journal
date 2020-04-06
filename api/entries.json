@@ -1,32 +1,25 @@
 {
-    "entries": [
+  "entries": [
     {
-        "date": "07/24/2025",
-        "concept": "HTML & CSS",
-        "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-        "mood": "Ok"
-    },
-
-    {
-        "date": "02/26/2020",
-        "concept": "Javascript",
-        "entry": "Finished our group projects and dove into Javascript unabashedly.",
-        "mood": "Sad"
-
+      "id": 1,
+      "concept": "Javascript",
+      "date": "03/28/2020",
+      "entry": "Did the thing",
+      "mood": "Sad"
     },
     {
-        "date": "02/28/2020",
-        "concept": "Javascript",
-        "entry": "After a few days of fumbling I am finally able to wrap my head around some of these concepts.",
-        "mood": "Ok"
-
+      "date": "2020-03-29",
+      "concept": "Javascript",
+      "entry": "We shredded",
+      "mood": "Sad",
+      "id": 2
     },
     {
-        "date": "02/28/2020",
-        "concept": "Javascript",
-        "entry": "After a few days of fumbling I am finally able to wrap my head around some of these concepts.",
-        "mood": "Ok"
-
+      "date": "2020-04-01",
+      "concept": "Javascript",
+      "entry": "Dream Team",
+      "mood": "Sad",
+      "id": 3
     }
-]
+  ]
 }

@@ -12,7 +12,6 @@ const JournalEntryComponent = (entryitem) => {
             concept: ${entryitem.concept} <br>
             entry: ${entryitem.entry} <br>
             mood: ${entryitem.mood} <br> <br>
-
         </section>
     `
 }
