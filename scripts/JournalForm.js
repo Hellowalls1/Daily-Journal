@@ -8,15 +8,15 @@ const eventHub = document.querySelector(".container")
 
 const contentTarget = document.querySelector(".JournalForm")
 
-contentTarget.addEventListener("click", clickEvent => {
-    if (clickEvent.target.id === "recordJournal") {
+contentTarget.addEventListener("click", clickEvent => { //listening for a click event on the event hub
+    if (clickEvent.target.id === "recordJournal") { //if the click event is on recordJournal (id from form button) then get all of the shit below
 
         const journalDate = document.querySelector("#journalDate").value  //getting the value (content) of the journal Date
         const concepts = document.querySelector("#concepts").value // getting the value (content) of the concepts covered
         const journalEntry = document.querySelector("#journalEntry").value // getting the value (content) of the Journal Entry text area
         const currentMood = document.querySelector("#currentMood").value // getting the value (content) of the viewers mood
 
-        const newJournalEntry = {
+        const newJournalEntry = {  //save all of said shit into a new variable with the object representation of...
             date: journalDate,
             concept: concepts,
             entry: journalEntry,
@@ -24,7 +24,6 @@ contentTarget.addEventListener("click", clickEvent => {
         }
 
         saveEntry(newJournalEntry)
-
 
     }
 })

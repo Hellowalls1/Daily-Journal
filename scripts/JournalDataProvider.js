@@ -17,8 +17,7 @@ const dispatchStateChangeEvent = () => {
 }
 
 
-let Entries = [
-   ]
+let Entries = []
 
 export const getEntries = () => {
 return fetch('http://localhost:3000/entries') // Fetch from the API

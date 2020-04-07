@@ -3,6 +3,7 @@
    flex-wrap: wrap;
    flex-direction: column;
    overflow: hidden;
+   justify-content: center;
 }
 .form1 {
     flex-direction: column;
@@ -32,4 +33,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.siteTitle {
+    justify-content: center;
 }
